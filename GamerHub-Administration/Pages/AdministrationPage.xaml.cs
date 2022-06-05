@@ -96,8 +96,7 @@ namespace GamerHub_Administration.Pages
             userList = await ApiAcces.GetUsersAsync(admin.Token);
             UserDataGrid.ItemsSource = userList;
         }
-
-
+        
         private void UserRemoveButton_Click(object sender, RoutedEventArgs e)
         {
             ShowUserRemoveDialog();
