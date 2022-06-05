@@ -91,7 +91,6 @@ namespace GamerHub_Administration.Pages
 
         /// ///////////////////////////////////////
 
-
         public async Task RefreshUserList()
         {
             userList = await ApiAcces.GetUsersAsync(admin.Token);
